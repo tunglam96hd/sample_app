@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t(".content",
+      rort: link_to(t(".rort"), Settings.static_pages.home.link),
+      mh: link_to(t(".michaelhartl"), Settings.links.tutorial_michael)).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.links.tutorial_news %></li>
+    </ul>
+  </nav>
+</footer>

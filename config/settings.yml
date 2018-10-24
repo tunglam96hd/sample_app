@@ -1,0 +1,10 @@
+static_pages:
+  home:
+    link: "http://www.railstutorial.org/"
+links:
+  tutorial_help: "http://www.railstutorial.org/help"
+  tutorial_book: "http://www.railstutorial.org/book"
+  tutorial_contact: "http://www.railstutorial.org/contact"
+  tutorial_michael: "http://www.michaelhartl.com/"
+  tutorial_screen: "http://screencasts.railstutorial.org/"
+  tutorial_news: "http://news.railstutorial.org/"

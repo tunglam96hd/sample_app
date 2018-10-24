@@ -1,0 +1,52 @@
+vi:
+  hello: "Hello world"
+  helpers:
+    application_helper:
+      base_title: "Hướng dẫn về một mẫu ứng dụng của Ruby trên Rails"
+  layouts:
+    application:
+      base_title: "Hướng dẫn về một mẫu ứng dụng của Ruby trên Rails"
+    header:
+      sample_app: "Ứng dụng mẫu"
+      home_title: "Trang chủ"
+      help_title: "Trợ giúp"
+      log_in: "Đăng nhập"
+    footer:
+      content: "Các %{rort} bởi %{mh}"
+      rort: "Hướng dẫn Ruby trên Rails"
+      michaelhartl: "Michael Hartl"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tài liệu mới"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu"
+      content: "Đây là trang chủ cho
+        %{rort} ứng dụng mẫu."
+      rort: "Hướng dẫn Ruby trên Rails"
+      signup: "Đăng ký ngay!"
+      railslogo: "Rails logo"
+    about:
+      about: "Về chúng tôi"
+      content: "Các %{rort} nó là %{book} và %{screencast}
+        để dạy cách phát triển web với %{ror}.
+        Đây là ứng dụng mẫu cho hướng dẫn."
+      rort: "Hướng dẫn Ruby trên Rails"
+      book: "sách"
+      screencast: "video hướng dẫn"
+      ror: "Ruby trên Rails"
+    help:
+      help: "Trợ giúp"
+      content: "Nhận trợ giúp về Hướng dẫn Ruby trên Rails tại %{rorhs}
+        Để được trợ giúp về ứng dụng mẫu này, hãy xem %{rort} sách."
+      rorhs: "Phần trợ giúp Hướng dẫn Rails"
+      rort: "Hướng dẫn Ruby trên Rails"
+    contact:
+      contact: "Liện hệ"
+      content: "Liện hệ với Hướng dẫn Ruby trên Rails về ứng dụng mẫu tại %{cp}."
+      cp: "trang Liên hệ"
+  users:
+    new:
+      signup: "Đăng ký"
+      content: "Đây sẽ là trang đăng ký cho người dùng mới."
