@@ -1,3 +1,53 @@
 en:
   hello: "Hello world"
-  base_title: "Ruby on Rails Tutorial Sample App"
+  helpers:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "Sample App"
+      home_title: "Home"
+      help_title: "Help"
+      log_in: "Log in"
+    footer:
+      content: "The %{rort} by %{mh}"
+      rort: "Ruby on Rails Tutorial"
+      michaelhartl: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  static_pages:
+    home:
+      home: "Home"
+      welcome: "Welcome to the Sample App"
+      content: "This is the home page for the
+        %{rort} sample application."
+      rort: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
+      railslogo: "Rails logo"
+    about:
+      about: "About"
+      content: "The %{rort} is a %{book} and %{screencast}
+        to teach web development with %{ror}.
+        This is the sample application for the tutorial."
+      rort: "Ruby on Rails Tutorial"
+      book: "book"
+      screencast: "screencast"
+      ror: "Ruby on Rails"
+    help:
+      help: "Help"
+      content: "Get help on the Ruby on Rails Tutorial at the %{rorhs}
+        To get help on this sample app, see the %{rort} book."
+      rorhs: "Rails Tutorial help section"
+      rort: "Ruby on Rails Tutorial"
+    contact:
+      contact: "Contact"
+      content: "Contact the Ruby on Rails Tutorial
+        about the sample app at the %{cp}."
+      cp: "Contact page"
+  users:
+    new:
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
