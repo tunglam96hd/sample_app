@@ -8,3 +8,10 @@ links:
   tutorial_michael: "http://www.michaelhartl.com/"
   tutorial_screen: "http://screencasts.railstutorial.org/"
   tutorial_news: "http://news.railstutorial.org/"
+User: 
+  name:
+    maximum: 50
+  email:
+    maximum: 255
+  password:
+    minnimum: 6
