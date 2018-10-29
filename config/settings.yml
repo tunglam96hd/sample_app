@@ -14,4 +14,4 @@ User:
   email:
     maximum: 255
   password:
-    minnimum: 6
+    minimum: 06

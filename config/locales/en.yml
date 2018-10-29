@@ -51,3 +51,12 @@ en:
     new:
       signup: "Sign up"
       content: "This will be a signup page for new users."
+      account: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+  shared:
+    error_messages:
+      theform: "The form contains"
+  controllers:
+    users_controller:
+      welcome: "Welcome to the Sample App!"

@@ -50,3 +50,6 @@ vi:
     new:
       signup: "Đăng ký"
       content: "Đây sẽ là trang đăng ký cho người dùng mới."
+  shared:
+    error_messages:
+      theform: "Biểu mẫu có"
