@@ -28,6 +28,7 @@ en:
       login: "Log in"
       new_user: "New user?"
       sign_up: "Sign up now!"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   static_pages:
