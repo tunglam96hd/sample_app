@@ -28,6 +28,7 @@ vi:
       login: "Đăng nhập"
       new_user: "Người dùng mới?"
       sign_up: "Đăng ký ngay!"
+      remember: "Ghi nhớ tài khoản"
     create:
       invalid: "Email hoặc mật khẩu không hợp lệ"
   static_pages:
