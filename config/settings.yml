@@ -8,6 +8,7 @@ links:
   tutorial_michael: "http://www.michaelhartl.com/"
   tutorial_screen: "http://screencasts.railstutorial.org/"
   tutorial_news: "http://news.railstutorial.org/"
+  avatar_email: "http://gravatar.com/emails"
 User: 
   name:
     maximum: 50
@@ -16,3 +17,6 @@ User:
     valid: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password:
     minimum: 06
+  size: 
+    index: 50
+    avatar: 80

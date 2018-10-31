@@ -67,6 +67,22 @@ en:
       account: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      save_changes: "Save changes" 
+    update:
+      profile_update: "Profile updated"
+    index:
+      all_users: "All users"
+      please_login: "Please log in."
+      notfound: "Not found"
+    user:
+      you_sure: "You sure?"
+      dele: "delete"
+    destroy:
+      user_deleted: "User deleted"
+      failed: "Failed"
   shared:
     error_messages:
       theform: "The form contains"

@@ -1,15 +1,18 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
+  scope :by_is, ->{order id ASC}
+  scope :by_attributes, ->{select :id, :avatar, :name, :email}
   before_save {email.downcase!}
   VALID_EMAIL_REGEX = Settings.User.email.valid
   validates :name, presence: true, length: {maximum: Settings.User.name.maximum}
   validates :email, presence: true, length: {maximum: Settings.User.email.maximum},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
-  validates :password, presence: true, length: {minimum: Settings.User.password.minimum}
+  validates :password, presence: true, length: {minimum: Settings.User.password.minimum}, allow_nil: true
+
   has_secure_password
   class << self
-    def User.digest string
+    def digest string
       cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
       BCrypt::Password.create string, cost: cost
     end

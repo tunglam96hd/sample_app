@@ -65,6 +65,22 @@ vi:
       content: "Đây sẽ là trang đăng ký cho người dùng mới."
     create:
       welcome: "Chào mừng đến ứng dụng mẫu!"
+    edit:
+      edit: "Sửa người dùng"
+      update: "Cập nhật hồ sơ của bạn"
+      save_changes: "Lưu thay đổi" 
+    update:
+      profile_update: "Cập nhật hồ sơ"
+    index:
+      all_users: "Tất cả người dùng"
+      please_login: "Hãy đăng nhập."
+      notfound: "Không tìm thấy"
+    user:
+      you_sure: "Bạn chắc chắn?"
+      dele: "Xóa"
+    destroy:
+      user_deleted: "Đã xóa người dùng"
+      failed: "Xóa người dùng thất bại"
   shared:
     error_messages:
       theform: "Biểu mẫu có"
