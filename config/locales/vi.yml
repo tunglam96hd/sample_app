@@ -1,4 +1,9 @@
 vi:
+  invalid_link: "Liên kết kích hoạt không hợp lệ"
+  account_acti: "Đã kích hoạt tài khoản!" 
+  hi: "Chào"
+  account_activation: "Kích hoạt tài khoản"
+  please_check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
   hello: "Hello world"
   helpers:
     application_helper:
@@ -31,6 +36,7 @@ vi:
       remember: "Ghi nhớ tài khoản"
     create:
       invalid: "Email hoặc mật khẩu không hợp lệ"
+      message: "Tài khoản chưa được kích hoạt! Kiểm tra email của bạn để biết liên kết kích hoạt"
   static_pages:
     home:
       home: "Trang chủ"
@@ -65,6 +71,7 @@ vi:
       content: "Đây sẽ là trang đăng ký cho người dùng mới."
     create:
       welcome: "Chào mừng đến ứng dụng mẫu!"
+      please_check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     edit:
       edit: "Sửa người dùng"
       update: "Cập nhật hồ sơ của bạn"
@@ -81,6 +88,11 @@ vi:
     destroy:
       user_deleted: "Đã xóa người dùng"
       failed: "Xóa người dùng thất bại"
+  user_mailer:
+    sample_app: "Ứng dụng mẫu"
+    hi: "Chào"
+    click_on: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    activate: "Kích hoạt"
   shared:
     error_messages:
       theform: "Biểu mẫu có"
