@@ -1,4 +1,9 @@
 en:
+  invalid_link: "Invalid activation link"
+  account_acti: "Account activated!" 
+  hi: "Hi"
+  account_activation: "Account activation"
+  please_check: "Please check your email to activate your account."
   hello: "Hello world"
   helpers:
     application_helper:
@@ -31,6 +36,7 @@ en:
       remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      message: "Account not activated! Check your email for the activation link"
   static_pages:
     home:
       home: "Home"
@@ -67,6 +73,7 @@ en:
       account: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
+      please_check: "Please check your email to activate your account."
     edit:
       edit: "Edit user"
       update: "Update your profile"
@@ -83,6 +90,11 @@ en:
     destroy:
       user_deleted: "User deleted"
       failed: "Failed"
+  user_mailer:
+    sample_app: "Sample App"
+    hi: "Hi"
+    click_on: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
   shared:
     error_messages:
       theform: "The form contains"
