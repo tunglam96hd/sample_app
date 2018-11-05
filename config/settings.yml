@@ -20,3 +20,5 @@ User:
   size: 
     index: 50
     avatar: 80
+  time:
+    reset: 2

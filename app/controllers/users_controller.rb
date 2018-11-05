@@ -74,5 +74,5 @@ class UsersController < ApplicationController
       return if @user
       redirect_to root_url
       flash[:danger] = t ".notfound"
-   end
+    end
 end

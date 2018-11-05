@@ -1,4 +1,9 @@
 en:
+  password_reset: "Password reset"
+  reset_password: "Reset password"
+  to_reset: "To reset your password click the link below:"
+  this_link: "This link will expire in two hours."
+  if_you_not: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   invalid_link: "Invalid activation link"
   account_acti: "Account activated!" 
   hi: "Hi"
@@ -28,12 +33,29 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    edit:
+      reset_password: "Reset password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+      pass_reset_expired: "Password reset has expired."
+      invalid: "Invalid"
+    create:
+      email_reset: "Email sent with password reset instructions"
+      email_not: "Email address not found"
+    update:
+      can_not: "can't be empty"
+      pass_been_reset: "Password has been reset."
   sessions:
     new:
       login: "Log in"
       new_user: "New user?"
       sign_up: "Sign up now!"
       remember: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       invalid: "Invalid email/password combination"
       message: "Account not activated! Check your email for the activation link"
