@@ -1,4 +1,9 @@
 vi:
+  password_reset: "Đặt lại mật khẩu"
+  reset_password: "Đặt lại mật khẩu"
+  to_reset: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+  this_link: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+  if_you_not: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   invalid_link: "Liên kết kích hoạt không hợp lệ"
   account_acti: "Đã kích hoạt tài khoản!" 
   hi: "Chào"
@@ -28,12 +33,29 @@ vi:
       about: "Về chúng tôi"
       contact: "Liên hệ"
       news: "Tài liệu mới"
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi đi"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      confirmation: "Xác nhận"
+      update_password: "Cập nhật mật khẩu"
+      pass_reset_expired: "Đặt lại mật khẩu đã hết hạn."
+      invalid: "Không hợp lệ"
+    create:
+      email_reset: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not: "Không tìm thấy địa chỉ email"
+    update:
+      can_not: "Không được để trống"
+      pass_been_reset: "Mật khẩu đã được đặt lại."
   sessions:
     new:
       login: "Đăng nhập"
       new_user: "Người dùng mới?"
       sign_up: "Đăng ký ngay!"
       remember: "Ghi nhớ tài khoản"
+      forgot_password: "(quên mật khẩu)"
     create:
       invalid: "Email hoặc mật khẩu không hợp lệ"
       message: "Tài khoản chưa được kích hoạt! Kiểm tra email của bạn để biết liên kết kích hoạt"
