@@ -1,4 +1,8 @@
 en:
+  micropost: "Microposts:"
+  view_profile: "view my profile"
+  unfollow: "Unfollow"
+  follow: "Follow"
   delete: "delete"
   you_sure: "You sure?"
   post_micropost: "Post"
@@ -120,6 +124,10 @@ en:
       failed: "Failed"
     show:
       microposts: "Microposts"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
   user_mailer:
     sample_app: "Sample App"
     hi: "Hi"
@@ -132,6 +140,9 @@ en:
     user_info:
       view_profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   microposts:
     micropost:
       posted: "Posted"

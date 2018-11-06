@@ -24,6 +24,8 @@ User:
     reset: 2
   content:
     maximum: 140
+  follow:
+    size: 30
 micropost:
   gravatar:
     size: 50
