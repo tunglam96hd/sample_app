@@ -52,6 +52,10 @@ GEM
       sass (>= 3.3.4)
     builder (3.2.3)
     byebug (9.0.6)
+    carrierwave (1.2.2)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
     coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -60,7 +64,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.1)
     config (1.7.0)
       activesupport (>= 3.0)
       deep_merge (~> 1.2.1)
@@ -145,7 +149,11 @@ GEM
     lumberjack (1.0.13)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    method_source (0.9.0)
+    method_source (0.9.1)
+    mime-types (3.2.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2018.0812)
+    mini_magick (4.7.0)
     mini_mime (1.0.1)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
@@ -163,11 +171,11 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.18.4)
-    pry (0.11.3)
+    pry (0.12.0)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     puma (3.9.1)
-    rack (2.0.5)
+    rack (2.0.6)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.1.6)
@@ -255,6 +263,7 @@ DEPENDENCIES
   bootstrap-kaminari-views
   bootstrap-sass (= 3.3.7)
   byebug (= 9.0.6)
+  carrierwave (= 1.2.2)
   coffee-rails (= 4.2.2)
   config
   ffaker
@@ -265,6 +274,7 @@ DEPENDENCIES
   jquery-rails (= 4.3.1)
   kaminari
   listen (= 3.1.5)
+  mini_magick (= 4.7.0)
   minitest (= 5.10.3)
   minitest-reporters (= 1.1.14)
   pg (= 0.18.4)

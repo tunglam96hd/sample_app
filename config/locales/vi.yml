@@ -1,4 +1,9 @@
 vi:
+  delete: "xóa"
+  you_sure: "Bạn chắc chán?"
+  post_micropost: "Đăng"
+  compose_micropost: "Soạn micropost mới..."
+  less_5mb: "phải nhỏ hơn 5MB"
   password_reset: "Đặt lại mật khẩu"
   reset_password: "Đặt lại mật khẩu"
   to_reset: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
@@ -68,6 +73,7 @@ vi:
       rort: "Hướng dẫn Ruby trên Rails"
       signup: "Đăng ký ngay!"
       railslogo: "Rails logo"
+      micropost_feed: "nguồn cung cấp dữ liệu Micropost"
     about:
       about: "Về chúng tôi"
       content: "Các %{rort} nó là %{book} và %{screencast}
@@ -110,6 +116,8 @@ vi:
     destroy:
       user_deleted: "Đã xóa người dùng"
       failed: "Xóa người dùng thất bại"
+    show:
+      microposts: "Microposts"
   user_mailer:
     sample_app: "Ứng dụng mẫu"
     hi: "Chào"
@@ -118,3 +126,16 @@ vi:
   shared:
     error_messages:
       theform: "Biểu mẫu có"
+      error: "Lỗi"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micropost: "micropost"
+  microposts:
+    micropost:
+      posted: "Đăng"
+      ago: "trước."
+    create:
+      micropost_created: "Tạo Micropost!"
+    destroy:
+      micropost_deleted: "Xóa Micropost"
+      failed: "Xóa thất bại"
