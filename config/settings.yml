@@ -22,3 +22,13 @@ User:
     avatar: 80
   time:
     reset: 2
+  content:
+    maximum: 140
+micropost:
+  gravatar:
+    size: 50
+  sizefile: 5
+upload:
+  limit: 400
+paginate:
+  per_page: 10

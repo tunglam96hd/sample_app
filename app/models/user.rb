@@ -4,6 +4,7 @@ class User < ApplicationRecord
   scope :by_attributes, ->{select :id, :avatar, :name, :email}
   before_save :downcase_email
   before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
   VALID_EMAIL_REGEX = Settings.User.email.valid
   validates :name, presence: true, length: {maximum: Settings.User.name.maximum}
   validates :email, presence: true, length: {maximum: Settings.User.email.maximum},
@@ -25,7 +26,7 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update :remember_digest, User.digest(remember_token)
+    update remember_digest: User.digest(remember_token)
   end
 
   def authenticated? attribute, token
@@ -57,6 +58,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.User.time.reset.hours.ago
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   private

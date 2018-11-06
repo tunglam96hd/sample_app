@@ -4,7 +4,9 @@ class UsersController < ApplicationController
   before_action :admin_user, only: %i(destroy)
   before_action :load_user, except: %i(index create new)
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.paginate.per_page
+  end
 
   def new
     @user = User.new
@@ -22,7 +24,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.by_attributes.order(:id).page params[:page]
+    @users = User.by_attributes.order(:id).page(params[:page]).per Settings.paginate.per_page
   end
 
   def edit; end
@@ -48,31 +50,24 @@ class UsersController < ApplicationController
   
   private
 
-    def user_params
-      params.require(:user).permit :name, :email, :password,
-        :password_confirmation
-    end
+  def user_params
+    params.require(:user).permit :name, :email, :password, :password_confirmation
+  end
 
-    def logged_in_user
-      return if logged_in?
-      store_location
-      flash[:danger] = t ".please_login"
-      redirect_to login_url
-    end
+  def correct_user
+    @user = User.find_by id: params[:id]
+    return if @user
+    redirect_to root_url unless current_user? @user
+  end
 
-    def correct_user
-      @user = User.find_by id: params[:id]
-      redirect_to(root_url) unless current_user? @user
-    end
+  def admin_user
+    redirect_to root_url unless current_user.admin?
+  end
 
-    def admin_user
-      redirect_to(root_url) unless current_user.admin?
-    end
-
-    def load_user
-      @user = User.find_by id: params[:id]
-      return if @user
-      redirect_to root_url
-      flash[:danger] = t ".notfound"
-    end
+  def load_user
+    @user = User.find_by id: params[:id]
+    return if @user
+    redirect_to root_url
+    flash[:danger] = t ".notfound"
+  end
 end

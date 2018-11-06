@@ -1,4 +1,9 @@
 en:
+  delete: "delete"
+  you_sure: "You sure?"
+  post_micropost: "Post"
+  compose_micropost: "Compose new micropost..."
+  less_5mb: "should be less than 5MB"
   password_reset: "Password reset"
   reset_password: "Reset password"
   to_reset: "To reset your password click the link below:"
@@ -68,6 +73,7 @@ en:
       rort: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
       railslogo: "Rails logo"
+      micropost_feed: "Micropost Feed"
     about:
       about: "About"
       content: "The %{rort} is a %{book} and %{screencast}
@@ -99,12 +105,12 @@ en:
     edit:
       edit: "Edit user"
       update: "Update your profile"
-      save_changes: "Save changes" 
+      save_changes: "Save changes"
+      please_login: "Please log in."
     update:
       profile_update: "Profile updated"
     index:
       all_users: "All users"
-      please_login: "Please log in."
       notfound: "Not found"
     user:
       you_sure: "You sure?"
@@ -112,6 +118,8 @@ en:
     destroy:
       user_deleted: "User deleted"
       failed: "Failed"
+    show:
+      microposts: "Microposts"
   user_mailer:
     sample_app: "Sample App"
     hi: "Hi"
@@ -120,3 +128,16 @@ en:
   shared:
     error_messages:
       theform: "The form contains"
+      error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      failed: "Failed deleted"
