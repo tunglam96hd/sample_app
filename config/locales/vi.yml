@@ -1,4 +1,8 @@
 vi:
+  micropost: "Microposts:"
+  view_profile: "xem hồ sơ của tôi"
+  unfollow: "Hủy theo dõi"
+  follow: "Theo dõi"
   delete: "xóa"
   you_sure: "Bạn chắc chán?"
   post_micropost: "Đăng"
@@ -118,6 +122,10 @@ vi:
       failed: "Xóa người dùng thất bại"
     show:
       microposts: "Microposts"
+    following:
+      following: "Theo dõi"
+    followers:
+      followers: "Người theo dõi"
   user_mailer:
     sample_app: "Ứng dụng mẫu"
     hi: "Chào"
@@ -130,6 +138,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ của tôi"
       micropost: "micropost"
+    stats:
+      following: "theo dõi"
+      followers: "người theo dõi"
   microposts:
     micropost:
       posted: "Đăng"
